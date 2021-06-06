@@ -23,9 +23,9 @@ const Portfolio = () => {
         <div className="portfolio-left">
           <div className="inner">
             <p className="subtitle">App for painting company</p>
-            <p className="featured-title">BJ Painting</p>
+            <p className="featured-title">AW Painting</p>
             <p className="featured-desc">
-              This was done for a painting company in Minneapolis. The site
+              This was done for a painting company. The site
               included a gallery to showcase work, and an app to let clients
               schedule appointments
             </p>

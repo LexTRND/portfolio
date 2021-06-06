@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectList from "../components/ProjectList";
 import Hero from "../components/Hero";
 import Featured from "../components/Featured";
 import Skills from "../components/Skills";
@@ -7,8 +6,8 @@ import Portfolio from "../components/Portfolio";
 import Head from "next/head";
 
 
-export default function Home({ projects }) {
-  console.log(projects);
+export default function Home() {
+
   return (
     <div className="main">
         <Head>

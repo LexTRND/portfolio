@@ -39,6 +39,7 @@ nav {
   img {
     color: #faba61;
     font-weight: bold;
+    width: 90%;
   }
   ul {
     display: flex;
@@ -48,10 +49,12 @@ nav {
       display: block;
       padding: 0 1em;
       color: $secondary-color;
-      font-size: 1.5em;
+      font-size: 1em;
     }
   }
 }
+
+
 
 .navLinks,
 .hero-art {
@@ -117,17 +120,22 @@ section {
 
 .skills {
   background: $third-color;
+
 }
 
 .skills-container ul li {
   background: white;
   padding: 4em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
   border-radius: 1em;
   margin-bottom: 1em;
+
   .icon-container {
     height: 100px;
     display: grid;
     place-content: center;
+
 
     &.one img {
       width: 150px;
@@ -182,6 +190,20 @@ section {
     grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
   }
+
+ .nav-section {
+   font-size: 1.7em;
+ }
+  nav img {
+    width: 100%;
+  }
+
+  .navLinks ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
 }
 
 @media screen and (min-width: 1020px) {
@@ -303,11 +325,26 @@ section {
   animation: circleAnim 1s infinite alternate-reverse;
 }
 
+.arrow {
+
+    animation: arrowAnim 1s infinite alternate-reverse;
+
+}
+
 @keyframes circleAnim {
   from {
-    transform: translate(8px, 8px);
+    transform: translate(8px, 6px);
   }
   to {
-    transform: translate(8px, 73px);
+    transform: translate(8px, 72px);
+  }
+}
+
+@keyframes arrowAnim {
+  from {
+    transform: translate(16.75px, 12.498px);
+  }
+  to {
+    transform: translate(16.75px, 81.498px);
   }
 }

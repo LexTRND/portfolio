@@ -7,7 +7,7 @@ const MyComponent = () => {
         <div className="inner transition2">
           <p className="subtitle"> Featured Project</p>
           <a href="#" className="featured-title">
-            BJ Painting
+            AW Painting
           </a>
           <p className="featured-desc">
             This was done for a painting company in Minneapolis. The site
@@ -16,7 +16,9 @@ const MyComponent = () => {
           </p>
         </div>
       </div>
+      <a href="" >
       <img className="right transition2" src="/featuredImage.png" alt="image" />
+        </a>
     </section>
   );
 };
