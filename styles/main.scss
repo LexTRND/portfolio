@@ -204,6 +204,34 @@ section {
     justify-content: space-around;
   }
 
+  .menu {display: none}
+
+}
+
+@media screen and (max-width: 768px) {
+  .nav-section {
+    display: none;
+  }
+  .nav-menu {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    top: 0.01vh;
+    background: $primary-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 9999;
+  }
+
+.menu {
+  display: block;
+  width: 10%;
+  z-index: 9999;
+  animation: growDown 300ms ease-in-out forwards
+}
+  
 }
 
 @media screen and (min-width: 1020px) {
