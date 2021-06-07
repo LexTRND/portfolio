@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="content">
-        <h1>Ideas transformed into reality</h1>
+        <h1>Ideas Transformed Into Reality</h1>
         <div className="meet">
           <p>Meet Alex 😁</p>
         </div>
