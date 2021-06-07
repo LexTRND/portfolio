@@ -7,7 +7,9 @@ const Portfolio = () => {
         <div className="portfolio-left">
           <div className="inner">
             <p className="subtitle">Conference App</p>
-            <p className="featured-title">Globamatics</p>
+            <a href="https://github.com/LexTRND/GlobeProject" className="featured-title">
+              Globamatics
+            </a>
             <p className="featured-desc">
               This was a project for a fake conference app, that needed to
               inform attendants of start times and room locations. It uses react
@@ -15,7 +17,7 @@ const Portfolio = () => {
             </p>
           </div>
         </div>
-        <a href="#">
+        <a href="https://github.com/LexTRND/GlobeProject">
           <img src="/globe.png" alt="website" />
         </a>
       </div>
@@ -23,7 +25,9 @@ const Portfolio = () => {
         <div className="portfolio-left">
           <div className="inner">
             <p className="subtitle">App for painting company</p>
-            <p className="featured-title">AW Painting</p>
+            <a href="https://awpainting-u3vrpo8zv-lextrnd.vercel.app" className="featured-title">
+              AW Painting
+            </a>
             <p className="featured-desc">
               This was done for a painting company. The site
               included a gallery to showcase work, and an app to let clients
@@ -31,7 +35,7 @@ const Portfolio = () => {
             </p>
           </div>
         </div>
-        <a href="#">
+        <a href="https://awpainting-u3vrpo8zv-lextrnd.vercel.app">
           <img src="/featuredImage.png" alt="website" />
         </a>
       </div>

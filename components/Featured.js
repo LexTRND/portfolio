@@ -6,7 +6,7 @@ const MyComponent = () => {
       <div className="left">
         <div className="inner transition2">
           <p className="subtitle"> Featured Project</p>
-          <a href="#" className="featured-title">
+          <a href="https://awpainting-u3vrpo8zv-lextrnd.vercel.app" className="featured-title">
             AW Painting
           </a>
           <p className="featured-desc">
@@ -16,7 +16,7 @@ const MyComponent = () => {
           </p>
         </div>
       </div>
-      <a href="" >
+      <a href="https://awpainting-u3vrpo8zv-lextrnd.vercel.app" >
       <img className="right transition2" src="/featuredImage.png" alt="image" />
         </a>
     </section>
