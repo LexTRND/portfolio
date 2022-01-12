@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "contentful": "^9.1.5",
     "next": "10.2.0",
     "normalize.css": "^8.0.1",
     "prettier": "^2.3.0",
